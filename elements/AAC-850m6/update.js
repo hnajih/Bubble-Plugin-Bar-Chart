@@ -16,7 +16,6 @@ function(instance, properties, context) {
     var yaxis_position = properties.yaxis_position
     var reverse_yaxis = properties.reverse_yaxis
     var data_labels_enabled = properties.data_labels_enabled;
-    var fill = properties.fill;
     var show_grid = properties.show_grid;
     var show_legend = properties.show_legend;
     var no_data_text = properties.no_data_text;
@@ -24,6 +23,13 @@ function(instance, properties, context) {
     var tooltip_enabled = properties.tooltip_enabled;
     var downloading_enabled = properties.downloading_enabled;
     var horizontal = properties.horizontal;
+    var distributed = properties.distributed;
+    var bar_roundness = properties.bar_roundness;
+    var bar_roundness_application = properties.bar_roundness_application;
+    var bar_width = properties.bar_width;
+    var hide_zero_bars_when_grouped = properties.hide_zero_bars_when_grouped;
+    var stacked = properties.stacked;
+    var stacked_fully = properties.stacked_fully;
     
     var series_1_name = properties.series_1_name || "";
     var series_1_color = properties.series_1_color;
@@ -81,30 +87,31 @@ function(instance, properties, context) {
             tools: {
                download: downloading_enabled
             }
-        }
+        },
+        stacked: stacked,
+        stackType: stacked_fully ? "100%": "normal"
       },
       plotOptions: {
           bar: {
             horizontal: horizontal,
+            borderRadius: bar_roundness,
+            borderRadiusApplication: bar_roundness_application,
+            columnWidth: (bar_width*100)+'%',
+            barHeight: (bar_width*100)+'%',
+            distributed: distributed,
+            hideZeroBarsWhenGrouped: hide_zero_bars_when_grouped,
           }
        },
       dataLabels: {
         enabled: data_labels_enabled,
       },
       colors: colors,
-      stroke: {
-        curve: "straight",
-      },
       title: {
         text: title || "",
         align: title_align,
       },
       fill: {
         colors: colors,
-        type: ['solid','gradient'].includes(fill) ? fill: "pattern",
-        pattern: {
-          style: fill,
-        },
       },
       grid: {
           show: show_grid

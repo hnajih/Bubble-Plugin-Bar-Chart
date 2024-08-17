@@ -15,7 +15,7 @@
             "editor": "DynamicValue",
             "is_list": true,
             "name": "series_1_data",
-            "rank": 10,
+            "rank": 11,
             "value": "number"
         },
         "AAH": {
@@ -24,7 +24,7 @@
             "editor": "DynamicValue",
             "is_list": false,
             "name": "series_1_name",
-            "rank": 8,
+            "rank": 9,
             "value": "text"
         },
         "AAJ": {
@@ -33,7 +33,7 @@
             "doc": "Text to display as a title of chart",
             "editor": "DynamicValue",
             "name": "title",
-            "rank": 0,
+            "rank": 1,
             "value": "text"
         },
         "AAL": {
@@ -45,7 +45,7 @@
             "is_list": true,
             "name": "series_1_color",
             "optional": false,
-            "rank": 9
+            "rank": 10
         },
         "AAM": {
             "caption": "Title alignment",
@@ -54,7 +54,7 @@
             "editor": "Dropdown",
             "name": "title_alignment",
             "options": "left,center,right",
-            "rank": 1
+            "rank": 2
         },
         "AAN": {
             "caption": "xAxis values",
@@ -62,7 +62,7 @@
             "editor": "DynamicValue",
             "is_list": true,
             "name": "xaxis_values",
-            "rank": 3,
+            "rank": 4,
             "value": "text"
         },
         "AAO": {
@@ -71,7 +71,7 @@
             "editor": "Dropdown",
             "name": "xaxis_type",
             "options": "category,datetime,numeric",
-            "rank": 2,
+            "rank": 3,
             "value": "text"
         },
         "AAQ": {
@@ -80,7 +80,7 @@
             "doc": "To determine whether to show dataLabels or not",
             "editor": "Checkbox",
             "name": "data_labels_enabled",
-            "rank": 11
+            "rank": 12
         },
         "AAS": {
             "caption": "Fill",
@@ -89,7 +89,7 @@
             "editor": "Dropdown",
             "name": "fill",
             "options": "solid,gradient,verticalLines,horizontalLines,slantedLines,squares,circles",
-            "rank": 12
+            "rank": 13
         },
         "AAU": {
             "caption": "Show grid",
@@ -97,7 +97,7 @@
             "doc": "To show or hide grid area (including xaxis / yaxis)",
             "editor": "Checkbox",
             "name": "show_grid",
-            "rank": 13
+            "rank": 14
         },
         "AAV": {
             "caption": "xAxis position",
@@ -106,7 +106,7 @@
             "editor": "Dropdown",
             "name": "xaxis_position",
             "options": "bottom,top",
-            "rank": 4
+            "rank": 5
         },
         "AAW": {
             "caption": "Show yAxis",
@@ -114,7 +114,7 @@
             "doc": "Whether to display the y-axis or not.",
             "editor": "Checkbox",
             "name": "show_yaxis",
-            "rank": 5
+            "rank": 6
         },
         "AAX": {
             "caption": "yAxis position",
@@ -123,7 +123,7 @@
             "editor": "Dropdown",
             "name": "yaxis_position",
             "options": "left,right",
-            "rank": 6
+            "rank": 7
         },
         "AAY": {
             "caption": "reverse yAxis",
@@ -131,7 +131,7 @@
             "doc": " Flip the chart upside down making it inversed and draw the y-axis from bigger to smaller numbers.",
             "editor": "Checkbox",
             "name": "reverse_yaxis",
-            "rank": 7
+            "rank": 8
         },
         "AAZ": {
             "caption": "Show legend",
@@ -139,7 +139,7 @@
             "doc": " Whether to show or hide the legend container.",
             "editor": "Checkbox",
             "name": "show_legend",
-            "rank": 14
+            "rank": 15
         },
         "AAa": {
             "caption": "No data text",
@@ -148,7 +148,7 @@
             "editor": "StaticText",
             "in_style": true,
             "name": "no_data_text",
-            "rank": 15
+            "rank": 16
         },
         "AAb": {
             "caption": "Dark mode",
@@ -156,7 +156,7 @@
             "doc": "Enable dark mode",
             "editor": "DynamicValue",
             "name": "dark_mode",
-            "rank": 16,
+            "rank": 17,
             "value": "boolean"
         },
         "AAc": {
@@ -165,7 +165,7 @@
             "doc": " Show tooltip when user hovers over chart area.",
             "editor": "Checkbox",
             "name": "tooltip_enabled",
-            "rank": 17
+            "rank": 18
         },
         "AAf": {
             "caption": "Downloading enabled",
@@ -173,7 +173,7 @@
             "doc": " Display the toolbar / menu in the top right corner.",
             "editor": "DynamicValue",
             "name": "downloading_enabled",
-            "rank": 18,
+            "rank": 19,
             "value": "boolean"
         },
         "AAl": {
@@ -182,7 +182,7 @@
             "editor": "DynamicValue",
             "name": "series_2_name",
             "optional": true,
-            "rank": 19,
+            "rank": 20,
             "value": "text"
         },
         "AAm": {
@@ -192,7 +192,7 @@
             "editor": "Color",
             "name": "series_2_color",
             "optional": true,
-            "rank": 20
+            "rank": 21
         },
         "AAn": {
             "caption": "Series 2 data",
@@ -200,7 +200,7 @@
             "is_list": true,
             "name": "series_2_data",
             "optional": true,
-            "rank": 21,
+            "rank": 22,
             "value": "number"
         },
         "AAo": {
@@ -209,7 +209,7 @@
             "editor": "DynamicValue",
             "name": "series_3_name",
             "optional": true,
-            "rank": 22,
+            "rank": 23,
             "value": "text"
         },
         "AAp": {
@@ -219,7 +219,7 @@
             "editor": "Color",
             "name": "series_3_color",
             "optional": true,
-            "rank": 23
+            "rank": 24
         },
         "AAq": {
             "caption": "Series 3 data",
@@ -228,7 +228,7 @@
             "is_list": true,
             "name": "series_3_data",
             "optional": true,
-            "rank": 24,
+            "rank": 25,
             "value": "number"
         },
         "AAr": {
@@ -237,7 +237,7 @@
             "editor": "DynamicValue",
             "name": "series_4_name",
             "optional": true,
-            "rank": 25,
+            "rank": 26,
             "value": "text"
         },
         "AAs": {
@@ -247,7 +247,7 @@
             "editor": "Color",
             "name": "series_4_color",
             "optional": true,
-            "rank": 26
+            "rank": 27
         },
         "AAt": {
             "caption": "Series 4 data",
@@ -256,7 +256,7 @@
             "is_list": true,
             "name": "series_4_data",
             "optional": true,
-            "rank": 27,
+            "rank": 28,
             "value": "number"
         },
         "AAu": {
@@ -265,7 +265,7 @@
             "editor": "DynamicValue",
             "name": "series_5_name",
             "optional": true,
-            "rank": 28,
+            "rank": 29,
             "value": "text"
         },
         "AAv": {
@@ -275,7 +275,7 @@
             "editor": "Color",
             "name": "series_5_color",
             "optional": true,
-            "rank": 29
+            "rank": 30
         },
         "AAw": {
             "caption": "Series 5 data",
@@ -284,8 +284,17 @@
             "is_list": true,
             "name": "series_5_data",
             "optional": true,
-            "rank": 30,
+            "rank": 31,
             "value": "number"
+        },
+        "AAy": {
+            "caption": "Horizontal",
+            "default_val": false,
+            "doc": "This option will turn a column chart into a horizontal bar chart.",
+            "editor": "Checkbox",
+            "name": "horizontal",
+            "rank": 0,
+            "value": "boolean"
         }
     },
     "has_reset_fn": false,

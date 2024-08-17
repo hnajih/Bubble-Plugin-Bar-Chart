@@ -23,6 +23,7 @@ function(instance, properties, context) {
     var dark_mode = properties.dark_mode;
     var tooltip_enabled = properties.tooltip_enabled;
     var downloading_enabled = properties.downloading_enabled;
+    var horizontal = properties.horizontal;
     
     var series_1_name = properties.series_1_name || "";
     var series_1_color = properties.series_1_color;
@@ -82,6 +83,11 @@ function(instance, properties, context) {
             }
         }
       },
+      plotOptions: {
+          bar: {
+            horizontal: horizontal,
+          }
+       },
       dataLabels: {
         enabled: data_labels_enabled,
       },

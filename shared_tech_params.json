@@ -1,0 +1,12 @@
+{
+    "assets": {
+        "AAx": {
+            "name": "bar",
+            "url": "//meta-q.cdn.bubble.io/f1723897258742x704797899090876500/Screen%20Shot%202024-08-17%20at%2019.20.23.png"
+        }
+    },
+    "dependencies": {
+        "plugin_api_version": 4,
+        "use_jquery": true
+    }
+}

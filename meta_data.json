@@ -1,6 +1,10 @@
 {
     "categories": {
-        "0": "chat"
+        "0": "chart",
+        "1": "analytics",
+        "2": "data (things)",
+        "3": "productivity",
+        "4": "mobile"
     },
     "data_tracked": false,
     "demo_page": "https://apex-charts-79431.bubbleapps.io/version-test/bar?debug_mode=true",
